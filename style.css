@@ -1,0 +1,72 @@
+body{
+  font-family: 'Inter';
+  background-color: rgb(255, 255, 255);
+  margin: 0%;
+}
+
+nav {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.kuba{
+  width: 65px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+nav ul {
+  
+  color:white;
+  list-style: None;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 0px;
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+}
+
+.banner{
+  margin-left: 5%;
+  height: 450px;
+  width: 740px;
+}
+
+.herotext{
+  font-weight: bolder;
+  margin-top: 5%;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: column;
+  width: 487px;
+  text-align: center;
+}
+
+.desc {
+  font-weight: lighter;
+}
+
+.brasil {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.btn {
+  width: 240px;
+}
