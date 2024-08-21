@@ -1,6 +1,6 @@
 body{
   font-family: 'Inter';
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(223, 220, 220);
   margin: 0%;
 }
 
@@ -107,16 +107,8 @@ nav ul li{
   border-radius: 15px;
 }
 
-.textoquadrados{
-  font-size: 24px;
+.loja{
+  margin-left: 2rem;
+  font-size: 32px;
   font-weight: 700;
-  display: grid;
-  align-items: center;
-  grid-template-columns: auto auto auto auto;
-}
-
-.descquadrados{
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
 }
