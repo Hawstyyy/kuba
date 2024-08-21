@@ -1,1 +1,1 @@
-Recreation of https://kuba.audio/ for practice and learning
+Replica of https://kuba.audio/ for practice and learning
