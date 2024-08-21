@@ -38,12 +38,14 @@ nav ul li{
 .hero{
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .banner{
-  margin-left: 5%;
+  margin: 0px;
+  margin-left: 50px;
   height: 450px;
-  width: 740px;
+  width: 720px;
 }
 
 .herotext{
@@ -58,6 +60,8 @@ nav ul li{
 }
 
 .desc {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-weight: lighter;
   font-size: 16px;
 }
@@ -81,15 +85,20 @@ nav ul li{
 }
 
 .brasil {
+  display: flex;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  font-weight: bolder ;
+  font-weight: bold ;
   font-size: 36px;
 }
 
 .quadrados {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .som, .conforto, .peças, .suporte{
@@ -99,9 +108,11 @@ nav ul li{
 }
 
 .textoquadrados{
-  display: flex;
+  font-size: 24px;
+  font-weight: 700;
+  display: grid;
   align-items: center;
-  justify-content: space-evenly;
+  grid-template-columns: auto auto auto auto;
 }
 
 .descquadrados{
