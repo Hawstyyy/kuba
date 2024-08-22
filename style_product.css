@@ -3,3 +3,64 @@ body{
   background-color: rgb(223, 220, 220);
   margin: 0%;
 }
+
+nav {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.kuba{
+  width: 65px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+nav ul {
+  color:white;
+  list-style: None;
+  width: 100%;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 0px;
+}
+
+.main_div {
+  display: flex;
+  margin: 10rem;
+}
+
+.main_img {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 440px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  height: 0px;
+}
+
+.disco2pro {
+  margin-left: 10rem;
+  white-space: nowrap;
+  font-size: 32px;
+}
+
+.preco {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-right: 20rem;
+}
