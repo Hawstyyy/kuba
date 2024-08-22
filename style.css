@@ -46,6 +46,7 @@ nav ul li{
   margin-left: 50px;
   height: 450px;
   width: 720px;
+  border-radius: 20px;
 }
 
 .herotext{
@@ -107,19 +108,18 @@ nav ul li{
   border-radius: 15px;
 }
 
-.col-1 {
+.col-1, .col-2, .col-3 {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
 
-.disco2, .discobt {
+.img {
   width: 250px;
   height: 250px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  
 }
 
 .disco2text, .discobttext {
@@ -154,5 +154,16 @@ nav ul li{
 .discobtdesc {
   padding-left: 1rem;
   padding-right: 3rem;
+}
 
+.unitext {
+  white-space: nowrap;
+  text-align: center;
+  margin: 0px;
+  margin-left: 40px;
+}
+
+.uni2desc {
+  padding-left: 6rem;
+  padding-right: 3rem;
 }
