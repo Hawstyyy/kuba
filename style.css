@@ -43,9 +43,10 @@ nav ul li{
 
 .banner{
   margin: 0px;
-  margin-left: 50px;
   height: 450px;
   width: 720px;
+  display: block;
+  margin-left: auto;
 }
 
 .herotext{
@@ -96,6 +97,34 @@ nav ul li{
   font-size: 36px;
   background-color: black;
   color: white;
+}
+
+.inf-master{
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.inf{
+  width: 15%;
+  margin: 0 10px 0 10px;
+}
+
+.som{
+  max-width: 100%;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.txt{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.prosa{
+  text-align: left;
 }
 
 .col-1, .col-2, .col-3 {
