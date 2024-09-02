@@ -1,7 +1,9 @@
 body{
   font-family: 'Inter';
   background-color: rgb(223, 220, 220);
-  margin: 0%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .kuba{
@@ -35,6 +37,10 @@ nav ul li{
   padding-left: 0px;
 }
 
+.mainDiv{
+  width: 45%;
+}
+
 .mainImg {
   margin-left: 5rem;
   margin-top: 5rem;
@@ -45,5 +51,4 @@ nav ul li{
 
 .mainTxt {
   margin-left: 50rem;
-  margin-bottom: 50rem;
 }
