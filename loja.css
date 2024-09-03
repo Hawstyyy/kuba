@@ -55,3 +55,17 @@ nav ul li{
   margin-left: 10rem;
   margin-top: 5rem;
 }
+
+.nome {
+  font-size: 46px;
+  margin-bottom: 0;
+}
+
+.preco {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.descricaoproduto li{
+  margin-bottom: 1rem;
+}
